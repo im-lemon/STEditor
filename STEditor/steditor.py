@@ -6,11 +6,11 @@ def clear():
     else:
         os.system("clear")
 
-def svim():
+def steditor():
     name=input("Filename with extension: ")
     clear()
     lines = []
-    print("Svim - 1.0.0")
+    print("STEditor - 1.0.0")
     while True:
         code=input()
         if code == ":sq":
@@ -33,4 +33,4 @@ def svim():
     
         else:
             lines.append(code)
-svim()
+steditor()
